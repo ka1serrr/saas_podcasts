@@ -18,7 +18,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/ui": ["./components/ui/index.ts"],
+      "@/shared": ["./shared/index.ts"],
+      "@/entities": ["./entities/index.ts"],
+      "@/app/*": ["./app/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
