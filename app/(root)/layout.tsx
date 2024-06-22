@@ -1,3 +1,5 @@
+import { LeftSideBar } from "@/app/layouts";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -6,7 +8,7 @@ export default function RootLayout({
   return (
     <div>
       <main>
-        <p>Left sideBar</p>
+        <LeftSideBar />
         {children}
         <p>Right sideBar</p>
       </main>

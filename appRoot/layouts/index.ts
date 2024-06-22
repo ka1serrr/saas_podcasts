@@ -1,1 +1,1 @@
-export * from './LeftSideBar'
+export { LeftSideBar } from "./leftSideBar";
