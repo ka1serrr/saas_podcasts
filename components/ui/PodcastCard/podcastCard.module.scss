@@ -1,0 +1,19 @@
+.card_wrapper {
+  @apply cursor-pointer
+}
+
+.card {
+  @apply flex flex-col gap-2
+}
+
+.card_title {
+ @apply text-16 truncate font-bold text-white-1
+}
+
+.card_description {
+  @apply text-12 truncate font-normal capitalize text-white-4
+}
+
+.card_image {
+  @apply aspect-square h-fit w-full rounded-xl 2xl:size-[200px]
+}
